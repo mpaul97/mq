@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import content from "../assets/content.json";
 import media from "../assets/media.jpeg";
 
@@ -40,7 +40,7 @@ function Landing() {
             })}
             {
                 index === LINES.length ?
-                <img src={media} alt="image" /> : <></>
+                <img src={media} alt="us" /> : <></>
 
             }
         </div>
